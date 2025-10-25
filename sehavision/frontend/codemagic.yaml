@@ -1,0 +1,9 @@
+workflows:
+  default:
+    name: "iOS Simulator"
+    macos:
+      xcode: "latest"
+    ios:
+      simulator: true
+    artifacts:
+      - build/ios/ipa
